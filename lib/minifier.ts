@@ -56,7 +56,7 @@ export class Minifier {
     this.platforms.forEach((platform) => {
       switch (platform) {
         case "android":
-          this.platformPaths.push(path.join(this.basePath, platform, "assets", "www"));
+          this.platformPaths.push(path.join(this.basePath, platform, "src", "main", "assets", "www"));
           break;
         case "ios":
         case "wp8":
